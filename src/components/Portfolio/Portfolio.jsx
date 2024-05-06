@@ -15,7 +15,7 @@ export default function Portfolio() {
            <div className="portfolio-imgs mb-5">
             <div className="container">
                  <div className="row g-5">
-                <div className="col-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <div className="inner position-relative ">
                             <img src="../../../public/poert1.png" className='w-100 ' alt="" />
                             <div className="overlay">
@@ -24,7 +24,7 @@ export default function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <div className="inner position-relative ">
                             <img src="../../../public/port2.png" className='w-100 ' alt="" />
                             <div className="overlay">
@@ -33,7 +33,7 @@ export default function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <div className="inner position-relative ">
                             <img src="../../../public/port3.png" className='w-100 ' alt="" />
                             <div className="overlay">
@@ -42,7 +42,7 @@ export default function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <div className="inner position-relative ">
                             <img src="../../../public/poert1.png" className='w-100 ' alt="" />
                             <div className="overlay">
@@ -51,7 +51,7 @@ export default function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <div className="inner position-relative ">
                             <img src="../../../public/port2.png" className='w-100 ' alt="" />
                             <div className="overlay">
@@ -60,7 +60,7 @@ export default function Portfolio() {
                             </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <div className="inner position-relative ">
                             <img src="../../../public/port3.png" className='w-100 ' alt="" />
                             <div className="overlay">
@@ -91,7 +91,7 @@ const allImgs = document.querySelectorAll(".portfolio-imgs .row img");
 const overlay = document.querySelectorAll(".portfolio-imgs .row .overlay");
 // console.log(overlay);
 const popUp = document.querySelector(".pop-up");
-// console.log(popUp)
+console.log(popUp)
 const popUpImages = document.querySelector(".pop-up img")
 
 function showPopUP() {
