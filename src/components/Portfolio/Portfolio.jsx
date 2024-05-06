@@ -118,11 +118,13 @@ for (let i = 0; i < overlay.length; i++){
 
 
 
+// if (popUp != null) {
+//     popUp.addEventListener("click", function (e) {
+//     if (e.target === popUp) {
+//         hidePopUP()
+//     }
+// })
 
+// }
 
-popUp.addEventListener("click", function (e) {
-    if (e.target === popUp) {
-        hidePopUP()
-    }
-})
 
