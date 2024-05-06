@@ -1,0 +1,20 @@
+.information{
+    background-color: #2c3e50;
+    padding-block: 100px;
+}
+h4{
+    font-size: 28px;
+}
+.social-list li{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
